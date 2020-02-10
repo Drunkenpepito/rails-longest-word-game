@@ -1,0 +1,75 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.grid {
+  display: grid;
+  margin: 3em;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px  ;
+  height: 70px;
+  grid-column-gap: 1em;
+  width: auto;
+  margin: 30px 200px;
+  }
+
+  .gridinline{
+  grid-template_columns: 3fr 3fr 3fr;
+   grid-column-gap: 1em;
+  }
+
+.letter{
+ background-color: #2F8DCC;
+ border-style: solid;
+ border-color: black;
+ font-size: 30px;
+ text-align: center;
+ color: white;
+
+}
+
+.answer {
+  height: 50px;
+}
+
+.feedback {
+  grid-template-columns: 7fr 1fr;
+  border-color: black;
+}
+
+.answer{
+  width: 600px;
+}
+
+.button{
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  background-color:#2F8DCC;
+  border-color: black;
+  color: white;
+  border-radius: 2px;
+
+}
+
+.button hover{
+  background-color: white;
+
+
+}
+
+.sentence {
+  color: grey;
+  letter-spacing: 2px;
+  font-size:20px;
+}
+
+.title {
+  text-decoration: blink;
+  animation: colorblink 2s infinite;
+}
+
+@keyframes colorblink {
+0% { }
+50% { color:pink; }
+}
